@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main() {
+	
+	float r, a, pi=3.14;
+	
+	printf("Raio = "); 
+	scanf("%f", &r);
+ 
+	a = pi * r * r;
+ 
+	printf("Area = %.2f m2 \n", a);
+ 
+	return 0;
+}
