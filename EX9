@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+  char f, m, s;
+
+  printf("Insira a letra correspondente ao seu sexo.\n");
+  printf("F - Feminino //// M - Masculino.\n\t");
+  scanf("%c", &s);
+
+  if(s == 'F' || s == 'f'){
+    printf("F - Feminino");
+  }
+
+  if(s == 'M' || s == 'm') {
+    printf("M - Masculino");
+  }
+
+  else{
+    printf("Sexo Inválido");
+  }
+  return 0;
+}
