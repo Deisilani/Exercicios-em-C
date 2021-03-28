@@ -1,0 +1,50 @@
+#include <stdio.h>
+  #include <stdlib.h>
+
+  int main() {
+
+    int n1, n2, n3, ma, me;
+
+    printf("\nInsira o primeiro número:\n\n");
+    scanf("%d", &n1);
+
+    printf("\nInsira o segundo número:\n\n");
+    scanf("%d", &n2);
+
+    printf("\nInsira o terceiro número:\n\n");
+    scanf("%d", &n3);
+
+    //maior
+
+    if (n1 > n2 && n1 > n3){
+        ma = n1;
+    }
+    
+    if(n2 > n3){
+        ma = n2;
+    }
+            
+    else{
+        ma = n3;
+    }
+
+   //menor
+
+    if (n1 < n2 && n1 < n3){
+        me = n1;
+    }         
+    
+    if(n2 < n3){
+       me = n2;
+    }
+                  
+    else{
+        me = n3;
+    }
+
+    printf("\nO maior número é: %d\n",ma);
+
+    printf("\nO menor número é: %d\n",me);
+
+    return 0;
+  }
