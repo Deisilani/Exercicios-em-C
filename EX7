@@ -1,0 +1,21 @@
+  #include <stdio.h>
+
+  int main() {
+    int num1, num2, maior;
+
+    printf("Insira o primeiro número\t");
+    scanf("%d", &num1);
+     
+    printf("Insira o segundo número\t");
+    scanf("%d", &num2);
+
+  if (num1>num2) {
+      printf("O MAIOR número é: \t%d", num1);
+  }
+
+  else {
+    printf("O MENOR número é: \t%d", num2);
+  }    
+
+    return 0;
+  }
