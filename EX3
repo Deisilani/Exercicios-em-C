@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+int main() {
+  int num1, num2, soma;
+  printf("Insira o primeiro número:\t");
+  scanf("%d", &num2);
+
+  printf("Insira o segundo número:\t");
+  scanf("%d", &num1);
+
+  soma = num1 + num2;
+  printf("Insira o segundo número:\t%d", soma);
+
+  return 0;
+}
