@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+  int n1, n2, m;
+
+  printf("Insira a primeira nota\n");
+  scanf("%d", &n1);
+
+  printf("Insira a segunda nota\n");
+  scanf("%d", &n2);
+
+  m = (n1 + n2) / 2;
+
+  if(m >= 7 && m <10){
+    printf("Aprovado\n");
+  }
+
+  else if(m < 7){
+    printf("Reprovado\n");
+  }
+
+  else if(m == 10){
+    printf("Aprovado com Distinção\n");
+  }
+  return 0;
+}
