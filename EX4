@@ -1,0 +1,32 @@
+4 - Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+int main() {
+  float n1, n2, n3, n4;
+  float media;
+  
+  printf("Insira a primeira nota:\t");
+  scanf("%f", &n1);
+
+  printf("Insira a segunda nota:\t");
+  scanf("%f", &n2);
+
+  printf("Insira a terceira nota:\t");
+  scanf("%f", &n3);
+
+  printf("Insira a quarta nota:\t");
+  scanf("%f", &n4);
+
+  media = (n1 + n2 + n3 + n4) / 4;
+
+  printf("Média das notas:\t%f", media);
+
+  return 0;
+}
+
+
+
