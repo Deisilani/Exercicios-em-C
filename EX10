@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+  char l;
+
+  printf("Insira uma letra.\t");
+  scanf("%c", &l);
+
+  if(l == 'a' || l == 'A' || l == 'e' || l == 'E' || l == 'i' || l == 'I' || l == 'o' || l == 'O' || l == 'u' || l == 'U'){
+    printf("VOGAL");
+  }
+
+  else{
+    printf("Consoante");
+  }
+  return 0;
+}
